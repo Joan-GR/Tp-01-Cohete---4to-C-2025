@@ -335,6 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a2e834dbaaa54f4e87d6396d848831d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fuegoON: {fileID: 1670012439}
   botonGO: {fileID: 830963844}
   coheteScript: {fileID: 1966894699}
 --- !u!1 &830963844

@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class BotonScript : MonoBehaviour
 {
+    public GameObject fuegoON;
     public GameObject botonGO;
     public CoheteScript coheteScript;
 
 
     private void OnMouseDown()
     {
+        fuegoON.SetActive(true);
         botonGO.SetActive(false);
         //ordenarle al cohete que despegue
         coheteScript.Despegue();
@@ -17,6 +19,7 @@ public class BotonScript : MonoBehaviour
 
     private void OnMouseUp()
     {
+
         botonGO.SetActive(true);
     }
 
